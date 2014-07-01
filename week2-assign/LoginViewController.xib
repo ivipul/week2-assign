@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="emailField" destination="vYN-et-nD9" id="llg-4G-iXd"/>
+                <outlet property="loginActivityLoader" destination="GsQ-7F-Pxq" id="FPL-es-JoV"/>
+                <outlet property="loginButton" destination="Fnh-W0-LwA" id="Ocd-2h-3JI"/>
+                <outlet property="logo" destination="SSj-QQ-deO" id="F0K-cB-1Tc"/>
+                <outlet property="passwordField" destination="xFO-OI-tcF" id="ESI-Ai-bor"/>
+                <outlet property="signupLink" destination="F89-AV-W0M" id="veh-zE-0Tq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewTextinputs" destination="1Sb-C0-LbI" id="3xr-dM-SrL"/>
+                <outlet property="viewTopElements" destination="Rpo-wd-CRN" id="fzP-iV-ErZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rpo-wd-CRN">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="SSj-QQ-deO">
+                            <rect key="frame" x="0.0" y="161" width="320" height="46"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Sb-C0-LbI">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="form_bg" translatesAutoresizingMaskIntoConstraints="NO" id="K8Z-Uf-iCw">
+                                    <rect key="frame" x="0.0" y="233" width="320" height="102"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email or phone number" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vYN-et-nD9">
+                                    <rect key="frame" x="36" y="250" width="248" height="18"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <action selector="onEmailChange:" destination="-1" eventType="editingChanged" id="zw5-tG-dKF"/>
+                                    </connections>
+                                </textField>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="xFO-OI-tcF">
+                                    <rect key="frame" x="36" y="292" width="248" height="18"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <action selector="onPasswordChange:" destination="-1" eventType="editingChanged" id="hYp-hJ-YTC"/>
+                                    </connections>
+                                </textField>
+                                <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnh-W0-LwA">
+                                    <rect key="frame" x="14" y="332" width="293" height="52"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="login_button_disabled">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled" image="login_button_disabled"/>
+                                    <state key="selected" image="logging_in_button"/>
+                                    <connections>
+                                        <action selector="onTapLoginButton:" destination="-1" eventType="touchUpInside" id="mwB-tb-ioo"/>
+                                    </connections>
+                                </button>
+                                <activityIndicatorView opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="GsQ-7F-Pxq">
+                                    <rect key="frame" x="269" y="348" width="20" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <rect key="contentStretch" x="0.0" y="0.0" width="0.80000000000000004" height="0.80000000000000004"/>
+                                </activityIndicatorView>
+                            </subviews>
+                            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                        </view>
+                    </subviews>
+                </view>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign Up for Facebook" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F89-AV-W0M">
+                    <rect key="frame" x="0.0" y="466" width="320" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.97345344389999999" green="0.97345344389999999" blue="0.97345344389999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="highlightedColor" red="0.97345344389999999" green="0.97345344389999999" blue="0.97345344389999999" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Help Center" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08A-F3-gBq">
+                    <rect key="frame" x="0.0" y="507" width="320" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.97345344389999999" green="0.97345344389999999" blue="0.97345344389999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="highlightedColor" red="0.97345344389999999" green="0.97345344389999999" blue="0.97345344389999999" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.31007856049619725" green="0.42831322528067389" blue="0.683451186131387" alpha="1" colorSpace="deviceRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="form_bg" width="295" height="95"/>
+        <image name="logging_in_button" width="293" height="52"/>
+        <image name="login_button_disabled" width="293" height="52"/>
+        <image name="logo" width="174" height="43"/>
+    </resources>
+</document>

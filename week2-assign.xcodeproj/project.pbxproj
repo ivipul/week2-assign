@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A72B36B1962418A00E123C0 /* RequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A72B3691962418A00E123C0 /* RequestsViewController.m */; };
+		5A72B36C1962418A00E123C0 /* RequestsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A72B36A1962418A00E123C0 /* RequestsViewController.xib */; };
+		5A72B3701962419A00E123C0 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A72B36E1962419A00E123C0 /* NotificationViewController.m */; };
+		5A72B3711962419A00E123C0 /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A72B36F1962419A00E123C0 /* NotificationViewController.xib */; };
+		5A72B375196241AE00E123C0 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A72B373196241AE00E123C0 /* MenuViewController.m */; };
+		5A72B376196241AE00E123C0 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A72B374196241AE00E123C0 /* MenuViewController.xib */; };
+		5A72B37A196241FC00E123C0 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A72B378196241FC00E123C0 /* MessagesViewController.m */; };
+		5A72B37B196241FC00E123C0 /* MessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A72B379196241FC00E123C0 /* MessagesViewController.xib */; };
 		5A778C17196069AC00111680 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A778C16196069AC00111680 /* Foundation.framework */; };
 		5A778C19196069AC00111680 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A778C18196069AC00111680 /* CoreGraphics.framework */; };
 		5A778C1B196069AC00111680 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A778C1A196069AC00111680 /* UIKit.framework */; };
@@ -19,6 +27,10 @@
 		5A778C32196069AC00111680 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A778C1A196069AC00111680 /* UIKit.framework */; };
 		5A778C3A196069AC00111680 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A778C38196069AC00111680 /* InfoPlist.strings */; };
 		5A778C3C196069AC00111680 /* week2_assignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A778C3B196069AC00111680 /* week2_assignTests.m */; };
+		5A778C4819606ADF00111680 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A778C4619606ADF00111680 /* LoginViewController.m */; };
+		5A778C4919606ADF00111680 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A778C4719606ADF00111680 /* LoginViewController.xib */; };
+		5A778C521960E56600111680 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A778C501960E56600111680 /* NewsViewController.m */; };
+		5A778C531960E56600111680 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A778C511960E56600111680 /* NewsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A72B3681962418A00E123C0 /* RequestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestsViewController.h; sourceTree = "<group>"; };
+		5A72B3691962418A00E123C0 /* RequestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestsViewController.m; sourceTree = "<group>"; };
+		5A72B36A1962418A00E123C0 /* RequestsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestsViewController.xib; sourceTree = "<group>"; };
+		5A72B36D1962419A00E123C0 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		5A72B36E1962419A00E123C0 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		5A72B36F1962419A00E123C0 /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		5A72B372196241AE00E123C0 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		5A72B373196241AE00E123C0 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		5A72B374196241AE00E123C0 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		5A72B377196241FC00E123C0 /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		5A72B378196241FC00E123C0 /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		5A72B379196241FC00E123C0 /* MessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesViewController.xib; sourceTree = "<group>"; };
 		5A778C13196069AC00111680 /* week2-assign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "week2-assign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A778C16196069AC00111680 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A778C18196069AC00111680 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +72,12 @@
 		5A778C37196069AC00111680 /* week2-assignTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "week2-assignTests-Info.plist"; sourceTree = "<group>"; };
 		5A778C39196069AC00111680 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A778C3B196069AC00111680 /* week2_assignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week2_assignTests.m; sourceTree = "<group>"; };
+		5A778C4519606ADF00111680 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5A778C4619606ADF00111680 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5A778C4719606ADF00111680 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		5A778C4F1960E56600111680 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		5A778C501960E56600111680 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		5A778C511960E56600111680 /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +141,24 @@
 				5A778C26196069AC00111680 /* AppDelegate.m */,
 				5A778C28196069AC00111680 /* Images.xcassets */,
 				5A778C1D196069AC00111680 /* Supporting Files */,
+				5A778C4519606ADF00111680 /* LoginViewController.h */,
+				5A778C4619606ADF00111680 /* LoginViewController.m */,
+				5A778C4719606ADF00111680 /* LoginViewController.xib */,
+				5A778C4F1960E56600111680 /* NewsViewController.h */,
+				5A778C501960E56600111680 /* NewsViewController.m */,
+				5A778C511960E56600111680 /* NewsViewController.xib */,
+				5A72B3681962418A00E123C0 /* RequestsViewController.h */,
+				5A72B3691962418A00E123C0 /* RequestsViewController.m */,
+				5A72B36A1962418A00E123C0 /* RequestsViewController.xib */,
+				5A72B36D1962419A00E123C0 /* NotificationViewController.h */,
+				5A72B36E1962419A00E123C0 /* NotificationViewController.m */,
+				5A72B36F1962419A00E123C0 /* NotificationViewController.xib */,
+				5A72B372196241AE00E123C0 /* MenuViewController.h */,
+				5A72B373196241AE00E123C0 /* MenuViewController.m */,
+				5A72B374196241AE00E123C0 /* MenuViewController.xib */,
+				5A72B377196241FC00E123C0 /* MessagesViewController.h */,
+				5A72B378196241FC00E123C0 /* MessagesViewController.m */,
+				5A72B379196241FC00E123C0 /* MessagesViewController.xib */,
 			);
 			path = "week2-assign";
 			sourceTree = "<group>";
@@ -221,6 +269,12 @@
 			files = (
 				5A778C21196069AC00111680 /* InfoPlist.strings in Resources */,
 				5A778C29196069AC00111680 /* Images.xcassets in Resources */,
+				5A72B37B196241FC00E123C0 /* MessagesViewController.xib in Resources */,
+				5A778C4919606ADF00111680 /* LoginViewController.xib in Resources */,
+				5A72B3711962419A00E123C0 /* NotificationViewController.xib in Resources */,
+				5A778C531960E56600111680 /* NewsViewController.xib in Resources */,
+				5A72B376196241AE00E123C0 /* MenuViewController.xib in Resources */,
+				5A72B36C1962418A00E123C0 /* RequestsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A72B36B1962418A00E123C0 /* RequestsViewController.m in Sources */,
 				5A778C27196069AC00111680 /* AppDelegate.m in Sources */,
+				5A72B37A196241FC00E123C0 /* MessagesViewController.m in Sources */,
 				5A778C23196069AC00111680 /* main.m in Sources */,
+				5A778C4819606ADF00111680 /* LoginViewController.m in Sources */,
+				5A72B375196241AE00E123C0 /* MenuViewController.m in Sources */,
+				5A778C521960E56600111680 /* NewsViewController.m in Sources */,
+				5A72B3701962419A00E123C0 /* NotificationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +497,7 @@
 				5A778C41196069AC00111680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A778C42196069AC00111680 /* Build configuration list for PBXNativeTarget "week2-assignTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +506,7 @@
 				5A778C44196069AC00111680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
