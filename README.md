@@ -1,5 +1,9 @@
 week2-assign
 ============
+
+![alt tag](https://raw.githubusercontent.com/ivipul/week2-assign/master/assign-week2.gif)
+
+
 No of hours: 8-9
 
 Feautures implemented:
